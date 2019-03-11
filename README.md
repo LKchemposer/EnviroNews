@@ -19,7 +19,7 @@ The full-text articles are stored in MongoDB on an AWS-EC2 instance. MongoDB is 
 
 This project consists of three parts:
 
-1. Getting URLs for environment-related articles (codes available [here](./code/urls-code))
+1. Getting URLs for environment-related articles (codes available [here](./code/url-codes))
 2. Downloading full-text articles from URLs using [newspaper API](https://newspaper.readthedocs.io/en/latest/) and storing them on MongoDB on an AWS-EC2 instance
 3. Using NLP techniques to model topics
 4. Integrating modeling data into Tableau for visualization and comparison
